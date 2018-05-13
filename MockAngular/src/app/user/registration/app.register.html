@@ -1,0 +1,100 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>User Regustration</title>
+    <!-- Bootstrap core CSS-->
+    <link href="../../../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Custom fonts for this template-->
+    <link href="../../../assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <!-- Custom styles for this template-->
+    <link href="../../../assets/css/sb-admin.css" rel="stylesheet" />
+</head>
+
+<body class="bg-dark">
+    <div class="container">
+        <div class="card card-register mx-auto mt-5">
+            <div class="card-header">Register an Account</div>
+            <div class="card-body">
+                <form>
+                    <div class="form-group">
+                        <div class="form-row">
+                            <label for="exampleInputName">First name:<span style="color:red;">*</span></label>
+                            <input class="form-control"  name="firstName" type="text" aria-describedby="nameHelp" placeholder="Enter first name"  [(ngModel)]="data.FirstName" (focusout)="isValidName()">
+                        </div>
+                        <div style="color: red" *ngIf="!isValidFirstName">
+                            {{nameErrorMsg}}
+                        </div>
+                        <div class="form-row">
+                            <label for="exampleInputLastName">Last name:<span style="color:red;">*</span></label>
+                            <input class="form-control"  name="lastName" type="text" aria-describedby="nameHelp" placeholder="Enter last name" [(ngModel)]="data.LastName"  (focusout)="isValidlastName()">
+                        </div>
+                        <div style="color: red" *ngIf="!isValidLastName">
+                            {{lastNameErrorMsg}}
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="form-row">
+                            <label for="exampleInputEmail1">Email address:<span style="color:red;">*</span></label>
+                            <input class="form-control"  name="email" type="email" aria-describedby="emailHelp" placeholder="Enter email"  [(ngModel)]="data.EmailId" (focusout)="isValidMail()">
+                        </div>
+                        <div style="color: red" *ngIf="!isValidEmail">
+                                {{emailErrorMsg}}
+                         </div>
+                        <div class="form-row">   
+                                <label for="exampleInputEmail1">Mobile:<span style="color:red;">*</span></label>
+                                <input class="form-control"  type="text" name="mobile" aria-describedby="emailHelp" placeholder="Enter phone no"  [(ngModel)]="data.Mobile" (focusout)="isValidNumber()">
+                        </div>
+                        <div style="color: red" *ngIf="!isValidPhoneNumber">
+                            {{phoneErrorMsg}}
+                     </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="form-row">
+                            <label for="exampleInputPassword1">User Name:<span style="color:red;">*</span></label>
+                            <input class="form-control"  name="userName" type="text" placeholder="UserName" [(ngModel)]="data.UserName"  (focusout)="isVaildUser()">
+                        </div>
+                        <div style="color: red" *ngIf="!isUserValid">
+                            {{userErrorMsg}}
+                        </div>
+                        <div class="form-row">   
+                            <label for="exampleConfirmPassword">PassWord:<span style="color:red;">*</span></label>
+                            <input class="form-control"  name="password" type="password" title="HTML and CSS Quick Reference" placeholder="password" [(ngModel)]="data.Password" (focusout)="isVaildPassword()">
+                        </div>
+                        <div style="color: red" *ngIf="!isValidPassword">
+                            {{passErrorMsg}}
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="form-row">
+                            <label for="exampleInputPassword1">Confirm password:<span style="color:red;">*</span></label>
+                            <input class="form-control"  name="confirmpwd" type="password" placeholder="confirm Password" [(ngModel)]="data.ConfirmPassword" (focusout)="ispasswordMatch()">
+                        </div>
+                        <div style="color: red" *ngIf="!isPasswordMatch">
+                             {{confirmPassErrorMsg}}
+                        </div>
+                        <div class="form-row">
+                                <button  class="btn btn-primary btn-block" style="margin-top: 30px" (click)="registerUser()">Register</button>
+                        </div>
+                    </div>
+                </form>
+                <div class="text-center">
+                    <a href="javascript:void(0)" class="d-block small mt-3" (click)="btnLogin()">Login Page</a>
+                    <a href="javascript:void(0)" class="d-block small" (click)="btnForgot()">Forgot Password?</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Bootstrap core JavaScript-->
+    <script src="../../../assets/vendor/jquery/jquery.min.js"></script>
+    <script src="../../../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Core plugin JavaScript-->
+    <script src="../../../assets/vendor/jquery-easing/jquery.easing.min.js"></script>
+</body>
+
+</html>

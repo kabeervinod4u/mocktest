@@ -1,0 +1,21 @@
+<div>
+  <h3 style="margin-bottom:10px;">Subject </h3>
+  <hr />
+  <div class="form-row">
+    <div class="form-group col-md-12">
+      <input type="hidden" name="SubjectID" #EmployeeID="ngModel" [(ngModel)]="selectSubject.Id">
+      <label><b>Subject</b></label>
+      <input class="form-control" name="SubjectName" [(ngModel)]="selectSubject.Subject" placeholder="Enter Subject" required>
+    </div>
+  </div>
+  <hr />
+  <div class="form-row">
+    <div class="col-md-6">
+      <a class="btn btn-primary btn-block" (click)="onSubmit()" href="javascript:void(0)">Submit</a>
+    </div>
+    <div class="col-md-6">
+      <a class="btn btn-danger btn-block" (click)="onNoClick()" href="javascript:void(0)">Cancel</a>
+    </div>
+  </div>
+</div>
+

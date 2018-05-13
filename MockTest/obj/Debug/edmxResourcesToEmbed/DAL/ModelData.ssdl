@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MockTestDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="tbl_answers">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Answer" Type="varchar(max)" Nullable="false" />
+    <Property Name="IsRight" Type="bit" Nullable="false" />
+    <Property Name="QuestionId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tbl_ExamDetail">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="EmailId" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="SubjectId" Type="int" Nullable="false" />
+    <Property Name="CategoryId" Type="int" Nullable="false" />
+    <Property Name="TestDuration" Type="int" Nullable="false" />
+    <Property Name="Createdate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="tbl_examtest_info">
+    <Key>
+      <PropertyRef Name="ExamTestId" />
+    </Key>
+    <Property Name="ExamTestId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ExamTestUserName" Type="varchar" MaxLength="150" Nullable="false" />
+    <Property Name="ExamTestSessionId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="ExamTestStartDateTime" Type="datetime" Nullable="false" />
+    <Property Name="ExamTestForSubjectCategory" Type="varchar" MaxLength="150" Nullable="false" />
+    <Property Name="ExamTestCompleteStatus" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="ExamTestEndTime" Type="datetime" />
+    <Property Name="TotalTimeInMinutes" Type="float" />
+    <Property Name="TotalNoOfQuestion" Type="int" Nullable="false" />
+    <Property Name="TotalCorrectAnswer" Type="int" Nullable="false" />
+    <Property Name="TotalMarks" Type="int" Nullable="false" />
+    <Property Name="Grade" Type="char" MaxLength="10" Nullable="false" />
+    <Property Name="UserId" Type="int" />
+  </EntityType>
+  <EntityType Name="tbl_examtest_info_detail">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="QDisplayOrderId" Type="int" Nullable="false" />
+    <Property Name="ExamTestId" Type="int" Nullable="false" />
+    <Property Name="QuestionId" Type="int" Nullable="false" />
+    <Property Name="QuestionAttemptStatus" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tbl_examtest_info_detail_answers">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="AnswerId" Type="int" />
+    <Property Name="AnwerStatus" Type="bit" Nullable="false" />
+    <Property Name="ExamInfoDetail_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tbl_exception">
+    <Key>
+      <PropertyRef Name="LogId" />
+    </Key>
+    <Property Name="LogId" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserId" Type="varchar" MaxLength="50" />
+    <Property Name="ExceptionMsg" Type="varchar(max)" />
+    <Property Name="ExceptionType" Type="varchar(max)" />
+    <Property Name="ExceptionSource" Type="nvarchar(max)" />
+    <Property Name="ExceptionURL" Type="varchar(max)" />
+    <Property Name="Logdate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="tbl_grade_master">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="StratRange" Type="int" />
+    <Property Name="EndRange" Type="int" />
+    <Property Name="Grade" Type="char" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="tbl_login">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Password" Type="varchar" MaxLength="150" Nullable="false" />
+    <Property Name="tbl_registration_RegistrationId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Username" Type="varchar" MaxLength="150" />
+  </EntityType>
+  <EntityType Name="tbl_questions">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Question" Type="varchar(max)" Nullable="false" />
+    <Property Name="SubCategoryId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tbl_registration">
+    <Key>
+      <PropertyRef Name="RegistrationId" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="RegistrationId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="FirstName" Type="varchar" MaxLength="250" Nullable="false" />
+    <Property Name="LastName" Type="varchar" MaxLength="250" Nullable="false" />
+    <Property Name="UserName" Type="varchar" MaxLength="150" Nullable="false" />
+    <Property Name="EmailId" Type="varchar" MaxLength="250" Nullable="false" />
+    <Property Name="Mobile" Type="varchar" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tbl_role">
+    <Key>
+      <PropertyRef Name="RoleId" />
+    </Key>
+    <Property Name="RoleId" Type="int" Nullable="false" />
+    <Property Name="RoleName" Type="varchar" MaxLength="150" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tbl_subjectCategory">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="SubjectCategory" Type="varchar" MaxLength="150" Nullable="false" />
+    <Property Name="SubjectId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tbl_subjectMaster">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="SubjectName" Type="varchar" MaxLength="150" Nullable="false" />
+    <Property Name="IsActive" Type="bit" />
+  </EntityType>
+  <EntityType Name="tbl_user_in_roles">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="RoleId" Type="int" Nullable="false" />
+    <Property Name="UserId" Type="int" />
+  </EntityType>
+  <EntityType Name="tbl_verification_info">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="RegistrationId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="VerificationLink" Type="varchar(max)" Nullable="false" />
+    <Property Name="VerificationCode" Type="varchar" MaxLength="150" />
+    <Property Name="LinkGenerateDate" Type="datetime" />
+    <Property Name="VerificationDate" Type="datetime" />
+    <Property Name="IsVerify" Type="bit" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__tbl_examt__UserI__67DE6983">
+    <End Role="tbl_login" Type="Self.tbl_login" Multiplicity="0..1" />
+    <End Role="tbl_examtest_info" Type="Self.tbl_examtest_info" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_login">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="tbl_examtest_info">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tbl_user___UserI__66EA454A">
+    <End Role="tbl_login" Type="Self.tbl_login" Multiplicity="0..1" />
+    <End Role="tbl_user_in_roles" Type="Self.tbl_user_in_roles" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_login">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="tbl_user_in_roles">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Table_1_tbl_role">
+    <End Role="tbl_role" Type="Self.tbl_role" Multiplicity="1" />
+    <End Role="tbl_user_in_roles" Type="Self.tbl_user_in_roles" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_role">
+        <PropertyRef Name="RoleId" />
+      </Principal>
+      <Dependent Role="tbl_user_in_roles">
+        <PropertyRef Name="RoleId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_answers_tbl_questions">
+    <End Role="tbl_questions" Type="Self.tbl_questions" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="tbl_answers" Type="Self.tbl_answers" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_questions">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="tbl_answers">
+        <PropertyRef Name="QuestionId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_logintbl_registration">
+    <End Role="tbl_registration" Type="Self.tbl_registration" Multiplicity="1" />
+    <End Role="tbl_login" Type="Self.tbl_login" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_registration">
+        <PropertyRef Name="RegistrationId" />
+      </Principal>
+      <Dependent Role="tbl_login">
+        <PropertyRef Name="tbl_registration_RegistrationId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_questions_tbl_subjectCategory">
+    <End Role="tbl_subjectCategory" Type="Self.tbl_subjectCategory" Multiplicity="1" />
+    <End Role="tbl_questions" Type="Self.tbl_questions" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_subjectCategory">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="tbl_questions">
+        <PropertyRef Name="SubCategoryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_subjectCategory_tbl_subjectMaster">
+    <End Role="tbl_subjectMaster" Type="Self.tbl_subjectMaster" Multiplicity="1" />
+    <End Role="tbl_subjectCategory" Type="Self.tbl_subjectCategory" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_subjectMaster">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="tbl_subjectCategory">
+        <PropertyRef Name="SubjectId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_verification_info_tbl_registration">
+    <End Role="tbl_registration" Type="Self.tbl_registration" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="tbl_verification_info" Type="Self.tbl_verification_info" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_registration">
+        <PropertyRef Name="RegistrationId" />
+      </Principal>
+      <Dependent Role="tbl_verification_info">
+        <PropertyRef Name="RegistrationId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="MockTestDBModelStoreContainer">
+    <EntitySet Name="tbl_answers" EntityType="Self.tbl_answers" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_ExamDetail" EntityType="Self.tbl_ExamDetail" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_examtest_info" EntityType="Self.tbl_examtest_info" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_examtest_info_detail" EntityType="Self.tbl_examtest_info_detail" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_examtest_info_detail_answers" EntityType="Self.tbl_examtest_info_detail_answers" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_exception" EntityType="Self.tbl_exception" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_grade_master" EntityType="Self.tbl_grade_master" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_login" EntityType="Self.tbl_login" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_questions" EntityType="Self.tbl_questions" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_registration" EntityType="Self.tbl_registration" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_role" EntityType="Self.tbl_role" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_subjectCategory" EntityType="Self.tbl_subjectCategory" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_subjectMaster" EntityType="Self.tbl_subjectMaster" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_user_in_roles" EntityType="Self.tbl_user_in_roles" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_verification_info" EntityType="Self.tbl_verification_info" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__tbl_examt__UserI__67DE6983" Association="Self.FK__tbl_examt__UserI__67DE6983">
+      <End Role="tbl_login" EntitySet="tbl_login" />
+      <End Role="tbl_examtest_info" EntitySet="tbl_examtest_info" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tbl_user___UserI__66EA454A" Association="Self.FK__tbl_user___UserI__66EA454A">
+      <End Role="tbl_login" EntitySet="tbl_login" />
+      <End Role="tbl_user_in_roles" EntitySet="tbl_user_in_roles" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Table_1_tbl_role" Association="Self.FK_Table_1_tbl_role">
+      <End Role="tbl_role" EntitySet="tbl_role" />
+      <End Role="tbl_user_in_roles" EntitySet="tbl_user_in_roles" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_answers_tbl_questions" Association="Self.FK_tbl_answers_tbl_questions">
+      <End Role="tbl_questions" EntitySet="tbl_questions" />
+      <End Role="tbl_answers" EntitySet="tbl_answers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_logintbl_registration" Association="Self.FK_tbl_logintbl_registration">
+      <End Role="tbl_registration" EntitySet="tbl_registration" />
+      <End Role="tbl_login" EntitySet="tbl_login" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_questions_tbl_subjectCategory" Association="Self.FK_tbl_questions_tbl_subjectCategory">
+      <End Role="tbl_subjectCategory" EntitySet="tbl_subjectCategory" />
+      <End Role="tbl_questions" EntitySet="tbl_questions" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_subjectCategory_tbl_subjectMaster" Association="Self.FK_tbl_subjectCategory_tbl_subjectMaster">
+      <End Role="tbl_subjectMaster" EntitySet="tbl_subjectMaster" />
+      <End Role="tbl_subjectCategory" EntitySet="tbl_subjectCategory" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_verification_info_tbl_registration" Association="Self.FK_tbl_verification_info_tbl_registration">
+      <End Role="tbl_registration" EntitySet="tbl_registration" />
+      <End Role="tbl_verification_info" EntitySet="tbl_verification_info" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

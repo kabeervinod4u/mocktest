@@ -1,0 +1,30 @@
+<div>
+  <h3 style="margin-bottom:10px;">Category </h3>
+  <hr />
+  <div class="form-row">
+    <div class="form-group col-md-12">
+      <input type="hidden" name="ID" #EmployeeID="ngModel" [(ngModel)]="selectCategory.Id">
+      <label><b>Subject</b></label>
+      <select class="hideLabel form-control" [(ngModel)]="selectCategory.SubjectId">
+        <option [ngValue]="k.Id" *ngFor="let k of subjectList">
+          {{k.Subject}}
+        </option>
+      </select>
+    </div>
+    <div class="form-group col-md-12">
+      <label><b>Category</b></label>
+      <input class="form-control" name="CategoryName" [(ngModel)]="selectCategory.Category" placeholder="Enter Category" required>
+    </div>
+  </div>
+  <hr />
+  <div class="form-row">
+    <div class="col-md-6">
+      <a class="btn btn-primary btn-block" (click)="onSubmit()" href="javascript:void(0)">Submit</a>
+    </div>
+    <div class="col-md-6">
+      <a class="btn btn-danger btn-block" (click)="onNoClick()" href="javascript:void(0)">Cancel</a>
+    </div>
+  </div>
+</div>
+
+

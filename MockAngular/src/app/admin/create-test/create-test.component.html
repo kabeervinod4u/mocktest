@@ -1,0 +1,46 @@
+<dash-board></dash-board>
+<div class="content-wrapper">
+  <div class="container-fluid">
+    <div class="usertest-wrapper">
+        <button (click)="openDialog()" class="btn btn-primary">Add TestDetail</button>
+        <br /><br />
+      
+      <div class="card mb-3">
+        <div class="card-header">
+          <i class="fa fa-table"></i> Details
+        </div>
+        <div class="table-header">
+          <mat-form-field>
+            <input matInput (keyup)="applyFilter($event)" placeholder="Filter">
+          </mat-form-field>
+        </div>
+        <div class="card-body">
+          <div class="table-responsive">
+            <mat-table  [dataSource]="dataSource" matSort class="table table-bordered">
+              <ng-container matColumnDef="Subject">
+                <mat-header-cell *matHeaderCellDef mat-sort-header> Subject </mat-header-cell>
+                <mat-cell *matCellDef="let row"> {{row.Subject}}</mat-cell>
+              </ng-container>
+              <ng-container matColumnDef="Category">
+                <mat-header-cell *matHeaderCellDef mat-sort-header> Category </mat-header-cell>
+                <mat-cell *matCellDef="let row"> {{row.Category}}</mat-cell>
+              </ng-container>
+              <ng-container matColumnDef="EmailId">
+                <mat-header-cell *matHeaderCellDef mat-sort-header> EmailId </mat-header-cell>
+                <mat-cell *matCellDef="let row"> {{row.EmailId}}</mat-cell>
+              </ng-container>
+              <ng-container matColumnDef="TestDuration">
+                <mat-header-cell *matHeaderCellDef mat-sort-header> TestDuration </mat-header-cell>
+                <mat-cell *matCellDef="let row"> {{row.TestDuration}}</mat-cell>
+              </ng-container>
+              <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+              <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
+            </mat-table>
+          </div>
+        </div>
+    </div>
+    <div class="card-footer"> <mat-paginator [pageSizeOptions]="[10]"></mat-paginator></div>
+  </div>
+</div>
+</div>
+

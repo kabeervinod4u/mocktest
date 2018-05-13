@@ -1,0 +1,37 @@
+<dash-board></dash-board>
+<div class="content-wrapper">
+  <div class="container-fluid">
+    <h1>
+      {{hoursDisplay ? hoursDisplay : '00'}} : {{(minutesDisplay) && (minutesDisplay <= 59) ? minutesDisplay : '00'}} : {{(secondsDisplay) && (secondsDisplay <= 59) ? secondsDisplay : '00'}} <br />
+    </h1>
+    <hr />
+    <div class="row">
+      <div class="col-md-8">
+        <div *ngIf="questionAnswer!= null">
+          <mat-grid-list cols="1" rowHeight="100px">
+            <mat-grid-tile>{{questionAnswer.Question}}</mat-grid-tile>
+          </mat-grid-list>
+          <mat-grid-list cols="1" rowHeight="30px">
+            <!--<mat-radio-button class="example-radio-button" *ngFor="let item of questionAnswer._getAnswer" style="background:#ffffff; border:1px solid #ccc">
+              {{item.Answer}}
+            </mat-radio-button>-->
+            <mat-grid-tile *ngFor="let item of questionAnswer._getAnswer" style="background:#ffffff; border:1px solid #ccc">
+             <input type="radio" class="example-radio-button" name="Answer"/> {{item.Answer}}
+            </mat-grid-tile>
+          </mat-grid-list>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <mat-grid-list cols="5" rowHeight="30px" gutterSize="4px">
+          <mat-grid-tile *ngFor="let tile of numbers" style="background:#ffffff; border:1px solid #ccc">
+            <a href="javascript:void(0)" (click)="getAnswer(tile.Id)"> {{tile.Index}}</a>
+          </mat-grid-tile>
+        </mat-grid-list>
+        <br/>
+        <button class="btn btn-default"><i class="fa fa-angle-double-left"></i> Previous</button>
+        <button class="btn btn-default">Next <i class="fa fa-angle-double-right"></i></button>
+      </div>
+    </div>
+
+  </div>
+</div>

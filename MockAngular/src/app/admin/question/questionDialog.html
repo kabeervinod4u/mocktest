@@ -1,0 +1,65 @@
+<div>
+  <h3 style="margin-bottom:10px;">Question </h3>
+  <hr />
+  <div class="form-row">
+    <div class="form-group col-md-12">
+      <input type="hidden" name="ID" #EmployeeID="ngModel" [(ngModel)]="selectQuestion.Id">
+      <label><b>Subject</b></label>
+      <select class="hideLabel form-control" [(ngModel)]="selectQuestion.SubjectId" (change)="selectCategory(selectQuestion.SubjectId);">
+        <option [ngValue]="k.Id" *ngFor="let k of subjectList">
+          {{k.Subject}}
+        </option>
+      </select>
+    </div>
+    <div class="form-group col-md-12">
+      <label><b>Category</b></label>
+      <select class="hideLabel form-control" [(ngModel)]="selectQuestion.CategoryId">
+        <option [ngValue]="c.Id" *ngFor="let c of categoryList">
+          {{c.Category}}
+        </option>
+      </select>
+    </div>
+    <div class="form-group col-md-12">
+      <label><b>Question</b></label>
+      <textarea class="form-control" name="QuestionName" [(ngModel)]="selectQuestion.Question" placeholder="Enter Question" rows="4" required></textarea>
+    </div>
+  </div>
+  <div class="form-row">
+    <form [formGroup]="answerForm" class="w-100" (ngSubmit)="onSubmit(answerForm.value)">
+      <div formArrayName="itemRows">
+        <div class="form-group">
+          <button type="button" (click)="addNewRow()" class="btn btn-primary"><i class="fa fa-plus"></i></button>
+          <label><b>Answer</b></label>
+        </div>
+        <div *ngFor="let itemrow of answerForm.controls.itemRows.controls; let i=index" [formGroupName]="i">
+          <div class="form-group">
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <span class="input-group-text">#{{ i + 1 }})</span>
+              </div>
+              <div class="input-group-prepend">
+                <span class="input-group-text"><input type="radio" formControlName="itemcheck" name="itemcheck" value="1" [checked]="answerForm.value.itemRows[i].itemcheck === 1" (click)="btnCheckBox(i)"/></span>
+              </div>
+              <div class="custom-file">
+                <input rows="1" formControlName="itemname" class="form-control" placeholder="Enter Answer" />
+              </div>
+              <div class="input-group-append">
+                <button *ngIf="answerForm.controls.itemRows.controls.length > 1" (click)="deleteRow(i)" class="btn btn-danger"><i class="fa fa-trash"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="form-row">
+        <div class="col-md-6">
+          <button type="submit" class="btn btn-primary btn-block">Submit</button>
+        </div>
+        <div class="col-md-6">
+          <a class="btn btn-danger btn-block" (click)="onNoClick()" href="javascript:void(0)">Cancel</a>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+

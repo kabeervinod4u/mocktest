@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="MockTestDBModelStoreContainer" CdmEntityContainer="MockTestDBEntities">
+    <EntitySetMapping Name="tbl_answers">
+      <EntityTypeMapping TypeName="MockTestDBModel.tbl_answers">
+        <MappingFragment StoreEntitySet="tbl_answers">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Answer" ColumnName="Answer" />
+          <ScalarProperty Name="IsRight" ColumnName="IsRight" />
+          <ScalarProperty Name="QuestionId" ColumnName="QuestionId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_examtest_info">
+      <EntityTypeMapping TypeName="MockTestDBModel.tbl_examtest_info">
+        <MappingFragment StoreEntitySet="tbl_examtest_info">
+          <ScalarProperty Name="ExamTestId" ColumnName="ExamTestId" />
+          <ScalarProperty Name="ExamTestUserName" ColumnName="ExamTestUserName" />
+          <ScalarProperty Name="ExamTestSessionId" ColumnName="ExamTestSessionId" />
+          <ScalarProperty Name="ExamTestStartDateTime" ColumnName="ExamTestStartDateTime" />
+          <ScalarProperty Name="ExamTestForSubjectCategory" ColumnName="ExamTestForSubjectCategory" />
+          <ScalarProperty Name="ExamTestCompleteStatus" ColumnName="ExamTestCompleteStatus" />
+          <ScalarProperty Name="ExamTestEndTime" ColumnName="ExamTestEndTime" />
+          <ScalarProperty Name="TotalTimeInMinutes" ColumnName="TotalTimeInMinutes" />
+          <ScalarProperty Name="TotalNoOfQuestion" ColumnName="TotalNoOfQuestion" />
+          <ScalarProperty Name="TotalCorrectAnswer" ColumnName="TotalCorrectAnswer" />
+          <ScalarProperty Name="TotalMarks" ColumnName="TotalMarks" />
+          <ScalarProperty Name="Grade" ColumnName="Grade" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_examtest_info_detail">
+      <EntityTypeMapping TypeName="MockTestDBModel.tbl_examtest_info_detail">
+        <MappingFragment StoreEntitySet="tbl_examtest_info_detail">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="QDisplayOrderId" ColumnName="QDisplayOrderId" />
+          <ScalarProperty Name="ExamTestId" ColumnName="ExamTestId" />
+          <ScalarProperty Name="QuestionId" ColumnName="QuestionId" />
+          <ScalarProperty Name="QuestionAttemptStatus" ColumnName="QuestionAttemptStatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_examtest_info_detail_answers">
+      <EntityTypeMapping TypeName="MockTestDBModel.tbl_examtest_info_detail_answers">
+        <MappingFragment StoreEntitySet="tbl_examtest_info_detail_answers">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="AnswerId" ColumnName="AnswerId" />
+          <ScalarProperty Name="AnwerStatus" ColumnName="AnwerStatus" />
+          <ScalarProperty Name="ExamInfoDetail_Id" ColumnName="ExamInfoDetail_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_grade_master">
+      <EntityTypeMapping TypeName="MockTestDBModel.tbl_grade_master">
+        <MappingFragment StoreEntitySet="tbl_grade_master">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="StratRange" ColumnName="StratRange" />
+          <ScalarProperty Name="EndRange" ColumnName="EndRange" />
+          <ScalarProperty Name="Grade" ColumnName="Grade" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_login">
+      <EntityTypeMapping TypeName="MockTestDBModel.tbl_login">
+        <MappingFragment StoreEntitySet="tbl_login">
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="tbl_registration_RegistrationId" ColumnName="tbl_registration_RegistrationId" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_questions">
+      <EntityTypeMapping TypeName="MockTestDBModel.tbl_questions">
+        <MappingFragment StoreEntitySet="tbl_questions">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Question" ColumnName="Question" />
+          <ScalarProperty Name="SubCategoryId" ColumnName="SubCategoryId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_registration">
+      <EntityTypeMapping TypeName="MockTestDBModel.tbl_registration">
+        <MappingFragment StoreEntitySet="tbl_registration">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="RegistrationId" ColumnName="RegistrationId" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="EmailId" ColumnName="EmailId" />
+          <ScalarProperty Name="Mobile" ColumnName="Mobile" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_role">
+      <EntityTypeMapping TypeName="MockTestDBModel.tbl_role">
+        <MappingFragment StoreEntitySet="tbl_role">
+          <ScalarProperty Name="RoleId" ColumnName="RoleId" />
+          <ScalarProperty Name="RoleName" ColumnName="RoleName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_subjectCategory">
+      <EntityTypeMapping TypeName="MockTestDBModel.tbl_subjectCategory">
+        <MappingFragment StoreEntitySet="tbl_subjectCategory">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="SubjectCategory" ColumnName="SubjectCategory" />
+          <ScalarProperty Name="SubjectId" ColumnName="SubjectId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_subjectMaster">
+      <EntityTypeMapping TypeName="MockTestDBModel.tbl_subjectMaster">
+        <MappingFragment StoreEntitySet="tbl_subjectMaster">
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="SubjectName" ColumnName="SubjectName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_user_in_roles">
+      <EntityTypeMapping TypeName="MockTestDBModel.tbl_user_in_roles">
+        <MappingFragment StoreEntitySet="tbl_user_in_roles">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="RoleId" ColumnName="RoleId" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_verification_info">
+      <EntityTypeMapping TypeName="MockTestDBModel.tbl_verification_info">
+        <MappingFragment StoreEntitySet="tbl_verification_info">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="RegistrationId" ColumnName="RegistrationId" />
+          <ScalarProperty Name="VerificationLink" ColumnName="VerificationLink" />
+          <ScalarProperty Name="VerificationCode" ColumnName="VerificationCode" />
+          <ScalarProperty Name="LinkGenerateDate" ColumnName="LinkGenerateDate" />
+          <ScalarProperty Name="VerificationDate" ColumnName="VerificationDate" />
+          <ScalarProperty Name="IsVerify" ColumnName="IsVerify" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_exception">
+      <EntityTypeMapping TypeName="MockTestDBModel.tbl_exception">
+        <MappingFragment StoreEntitySet="tbl_exception">
+          <ScalarProperty Name="Logdate" ColumnName="Logdate" />
+          <ScalarProperty Name="ExceptionURL" ColumnName="ExceptionURL" />
+          <ScalarProperty Name="ExceptionSource" ColumnName="ExceptionSource" />
+          <ScalarProperty Name="ExceptionType" ColumnName="ExceptionType" />
+          <ScalarProperty Name="ExceptionMsg" ColumnName="ExceptionMsg" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="LogId" ColumnName="LogId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_ExamDetail">
+      <EntityTypeMapping TypeName="MockTestDBModel.tbl_ExamDetail">
+        <MappingFragment StoreEntitySet="tbl_ExamDetail">
+          <ScalarProperty Name="Createdate" ColumnName="Createdate" />
+          <ScalarProperty Name="TestDuration" ColumnName="TestDuration" />
+          <ScalarProperty Name="CategoryId" ColumnName="CategoryId" />
+          <ScalarProperty Name="SubjectId" ColumnName="SubjectId" />
+          <ScalarProperty Name="EmailId" ColumnName="EmailId" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

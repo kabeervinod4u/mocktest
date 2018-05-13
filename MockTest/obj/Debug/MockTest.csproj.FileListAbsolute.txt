@@ -1,0 +1,513 @@
+D:\MockTest\MockTest\bin\ApplicationInsights.config
+D:\MockTest\MockTest\bin\MockTest.dll.config
+D:\MockTest\MockTest\bin\MockTest.dll
+D:\MockTest\MockTest\bin\MockTest.pdb
+D:\MockTest\MockTest\bin\roslyn\csc.exe
+D:\MockTest\MockTest\bin\roslyn\csc.exe.config
+D:\MockTest\MockTest\bin\roslyn\csc.rsp
+D:\MockTest\MockTest\bin\roslyn\csi.exe
+D:\MockTest\MockTest\bin\roslyn\csi.exe.config
+D:\MockTest\MockTest\bin\roslyn\csi.rsp
+D:\MockTest\MockTest\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\MockTest\MockTest\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\MockTest\MockTest\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\MockTest\MockTest\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\MockTest\MockTest\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\MockTest\MockTest\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\MockTest\MockTest\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\MockTest\MockTest\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\MockTest\MockTest\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\MockTest\MockTest\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\MockTest\MockTest\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\MockTest\MockTest\bin\roslyn\System.AppContext.dll
+D:\MockTest\MockTest\bin\roslyn\System.Console.dll
+D:\MockTest\MockTest\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\MockTest\MockTest\bin\roslyn\System.Diagnostics.Process.dll
+D:\MockTest\MockTest\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\MockTest\MockTest\bin\roslyn\System.IO.Compression.dll
+D:\MockTest\MockTest\bin\roslyn\System.IO.FileSystem.dll
+D:\MockTest\MockTest\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+D:\MockTest\MockTest\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\MockTest\MockTest\bin\roslyn\System.IO.Pipes.dll
+D:\MockTest\MockTest\bin\roslyn\System.Reflection.Metadata.dll
+D:\MockTest\MockTest\bin\roslyn\System.Security.AccessControl.dll
+D:\MockTest\MockTest\bin\roslyn\System.Security.Claims.dll
+D:\MockTest\MockTest\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\MockTest\MockTest\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\MockTest\MockTest\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\MockTest\MockTest\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\MockTest\MockTest\bin\roslyn\System.Security.Principal.Windows.dll
+D:\MockTest\MockTest\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\MockTest\MockTest\bin\roslyn\System.Threading.Thread.dll
+D:\MockTest\MockTest\bin\roslyn\System.ValueTuple.dll
+D:\MockTest\MockTest\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\MockTest\MockTest\bin\roslyn\System.Xml.XmlDocument.dll
+D:\MockTest\MockTest\bin\roslyn\System.Xml.XPath.dll
+D:\MockTest\MockTest\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\MockTest\MockTest\bin\roslyn\vbc.exe
+D:\MockTest\MockTest\bin\roslyn\vbc.exe.config
+D:\MockTest\MockTest\bin\roslyn\vbc.rsp
+D:\MockTest\MockTest\bin\roslyn\VBCSCompiler.exe
+D:\MockTest\MockTest\bin\roslyn\VBCSCompiler.exe.config
+D:\MockTest\MockTest\bin\Antlr3.Runtime.dll
+D:\MockTest\MockTest\bin\EntityFramework.dll
+D:\MockTest\MockTest\bin\Microsoft.AI.Agent.Intercept.dll
+D:\MockTest\MockTest\bin\Microsoft.AI.DependencyCollector.dll
+D:\MockTest\MockTest\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\MockTest\MockTest\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\MockTest\MockTest\bin\Microsoft.AI.Web.dll
+D:\MockTest\MockTest\bin\Microsoft.AI.WindowsServer.dll
+D:\MockTest\MockTest\bin\Microsoft.ApplicationInsights.dll
+D:\MockTest\MockTest\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\MockTest\MockTest\bin\Microsoft.Web.Infrastructure.dll
+D:\MockTest\MockTest\bin\Newtonsoft.Json.dll
+D:\MockTest\MockTest\bin\System.Net.Http.Formatting.dll
+D:\MockTest\MockTest\bin\System.Web.Helpers.dll
+D:\MockTest\MockTest\bin\System.Web.Http.dll
+D:\MockTest\MockTest\bin\System.Web.Http.WebHost.dll
+D:\MockTest\MockTest\bin\System.Web.Mvc.dll
+D:\MockTest\MockTest\bin\System.Web.Optimization.dll
+D:\MockTest\MockTest\bin\System.Web.Razor.dll
+D:\MockTest\MockTest\bin\System.Web.WebPages.Deployment.dll
+D:\MockTest\MockTest\bin\System.Web.WebPages.dll
+D:\MockTest\MockTest\bin\System.Web.WebPages.Razor.dll
+D:\MockTest\MockTest\bin\WebGrease.dll
+D:\MockTest\MockTest\bin\EntityFramework.xml
+D:\MockTest\MockTest\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\MockTest\MockTest\bin\Newtonsoft.Json.xml
+D:\MockTest\MockTest\bin\System.Net.Http.Formatting.xml
+D:\MockTest\MockTest\bin\System.Web.Helpers.xml
+D:\MockTest\MockTest\bin\System.Web.Http.xml
+D:\MockTest\MockTest\bin\System.Web.Http.WebHost.xml
+D:\MockTest\MockTest\bin\System.Web.Mvc.xml
+D:\MockTest\MockTest\bin\System.Web.Optimization.xml
+D:\MockTest\MockTest\bin\System.Web.Razor.xml
+D:\MockTest\MockTest\bin\System.Web.WebPages.xml
+D:\MockTest\MockTest\bin\System.Web.WebPages.Deployment.xml
+D:\MockTest\MockTest\bin\System.Web.WebPages.Razor.xml
+D:\MockTest\MockTest\bin\Antlr3.Runtime.pdb
+D:\MockTest\MockTest\bin\Microsoft.ApplicationInsights.xml
+D:\MockTest\MockTest\bin\Microsoft.AI.DependencyCollector.xml
+D:\MockTest\MockTest\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\MockTest\MockTest\bin\Microsoft.AI.WindowsServer.xml
+D:\MockTest\MockTest\bin\Microsoft.AI.Web.xml
+D:\MockTest\MockTest\obj\Debug\MockTest.csproj.CoreCompileInputs.cache
+D:\MockTest\MockTest\obj\Debug\MockTest.csproj.CopyComplete
+D:\MockTest\MockTest\obj\Debug\MockTest.dll
+D:\MockTest\MockTest\obj\Debug\MockTest.pdb
+D:\MockTest\MockTest\bin\Swashbuckle.Core.dll
+D:\MockTest\MockTest\bin\WebActivatorEx.dll
+D:\MockTest\MockTest\bin\roslyn\System.Collections.Immutable.dll
+D:\Client Projects\git\MockTest\MockTest\obj\Debug\MockTest.dll
+D:\Client Projects\git\MockTest\MockTest\obj\Debug\MockTest.pdb
+D:\Client Projects\git\MockTest\MockTest\bin\ApplicationInsights.config
+D:\Client Projects\git\MockTest\MockTest\bin\MockTest.dll.config
+D:\Client Projects\git\MockTest\MockTest\bin\MockTest.dll
+D:\Client Projects\git\MockTest\MockTest\bin\MockTest.pdb
+D:\Client Projects\git\MockTest\MockTest\bin\roslyn\csc.exe
+D:\Client Projects\git\MockTest\MockTest\bin\roslyn\csc.exe.config
+D:\Client Projects\git\MockTest\MockTest\bin\roslyn\csc.rsp
+D:\Client Projects\git\MockTest\MockTest\bin\roslyn\csi.exe
+D:\Client Projects\git\MockTest\MockTest\bin\roslyn\csi.exe.config
+D:\Client Projects\git\MockTest\MockTest\bin\roslyn\csi.rsp
+D:\Client Projects\git\MockTest\MockTest\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Client Projects\git\MockTest\MockTest\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Client Projects\git\MockTest\MockTest\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Client Projects\git\MockTest\MockTest\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Client Projects\git\MockTest\MockTest\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Client Projects\git\MockTest\MockTest\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Client Projects\git\MockTest\MockTest\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Client Projects\git\MockTest\MockTest\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Client Projects\git\MockTest\MockTest\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Client Projects\git\MockTest\MockTest\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Client Projects\git\MockTest\MockTest\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Client Projects\git\MockTest\MockTest\bin\roslyn\System.AppContext.dll
+D:\Client Projects\git\MockTest\MockTest\bin\roslyn\System.Collections.Immutable.dll
+D:\Client Projects\git\MockTest\MockTest\bin\roslyn\System.Console.dll
+D:\Client Projects\git\MockTest\MockTest\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Client Projects\git\MockTest\MockTest\bin\roslyn\System.Diagnostics.Process.dll
+D:\Client Projects\git\MockTest\MockTest\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Client Projects\git\MockTest\MockTest\bin\roslyn\System.IO.Compression.dll
+D:\Client Projects\git\MockTest\MockTest\bin\roslyn\System.IO.FileSystem.dll
+D:\Client Projects\git\MockTest\MockTest\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+D:\Client Projects\git\MockTest\MockTest\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Client Projects\git\MockTest\MockTest\bin\roslyn\System.IO.Pipes.dll
+D:\Client Projects\git\MockTest\MockTest\bin\roslyn\System.Reflection.Metadata.dll
+D:\Client Projects\git\MockTest\MockTest\bin\roslyn\System.Security.AccessControl.dll
+D:\Client Projects\git\MockTest\MockTest\bin\roslyn\System.Security.Claims.dll
+D:\Client Projects\git\MockTest\MockTest\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Client Projects\git\MockTest\MockTest\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Client Projects\git\MockTest\MockTest\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Client Projects\git\MockTest\MockTest\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Client Projects\git\MockTest\MockTest\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Client Projects\git\MockTest\MockTest\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Client Projects\git\MockTest\MockTest\bin\roslyn\System.Threading.Thread.dll
+D:\Client Projects\git\MockTest\MockTest\bin\roslyn\System.ValueTuple.dll
+D:\Client Projects\git\MockTest\MockTest\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Client Projects\git\MockTest\MockTest\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Client Projects\git\MockTest\MockTest\bin\roslyn\System.Xml.XPath.dll
+D:\Client Projects\git\MockTest\MockTest\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Client Projects\git\MockTest\MockTest\bin\roslyn\vbc.exe
+D:\Client Projects\git\MockTest\MockTest\bin\roslyn\vbc.exe.config
+D:\Client Projects\git\MockTest\MockTest\bin\roslyn\vbc.rsp
+D:\Client Projects\git\MockTest\MockTest\bin\roslyn\VBCSCompiler.exe
+D:\Client Projects\git\MockTest\MockTest\bin\roslyn\VBCSCompiler.exe.config
+D:\Client Projects\git\MockTest\MockTest\bin\Antlr3.Runtime.dll
+D:\Client Projects\git\MockTest\MockTest\bin\EntityFramework.dll
+D:\Client Projects\git\MockTest\MockTest\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Client Projects\git\MockTest\MockTest\bin\Microsoft.AI.DependencyCollector.dll
+D:\Client Projects\git\MockTest\MockTest\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Client Projects\git\MockTest\MockTest\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Client Projects\git\MockTest\MockTest\bin\Microsoft.AI.Web.dll
+D:\Client Projects\git\MockTest\MockTest\bin\Microsoft.AI.WindowsServer.dll
+D:\Client Projects\git\MockTest\MockTest\bin\Microsoft.ApplicationInsights.dll
+D:\Client Projects\git\MockTest\MockTest\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Client Projects\git\MockTest\MockTest\bin\Microsoft.Web.Infrastructure.dll
+D:\Client Projects\git\MockTest\MockTest\bin\Newtonsoft.Json.dll
+D:\Client Projects\git\MockTest\MockTest\bin\Swashbuckle.Core.dll
+D:\Client Projects\git\MockTest\MockTest\bin\System.Net.Http.Formatting.dll
+D:\Client Projects\git\MockTest\MockTest\bin\System.Web.Cors.dll
+D:\Client Projects\git\MockTest\MockTest\bin\System.Web.Helpers.dll
+D:\Client Projects\git\MockTest\MockTest\bin\System.Web.Http.Cors.dll
+D:\Client Projects\git\MockTest\MockTest\bin\System.Web.Http.dll
+D:\Client Projects\git\MockTest\MockTest\bin\System.Web.Http.WebHost.dll
+D:\Client Projects\git\MockTest\MockTest\bin\System.Web.Mvc.dll
+D:\Client Projects\git\MockTest\MockTest\bin\System.Web.Optimization.dll
+D:\Client Projects\git\MockTest\MockTest\bin\System.Web.Razor.dll
+D:\Client Projects\git\MockTest\MockTest\bin\System.Web.WebPages.Deployment.dll
+D:\Client Projects\git\MockTest\MockTest\bin\System.Web.WebPages.dll
+D:\Client Projects\git\MockTest\MockTest\bin\System.Web.WebPages.Razor.dll
+D:\Client Projects\git\MockTest\MockTest\bin\WebActivatorEx.dll
+D:\Client Projects\git\MockTest\MockTest\bin\WebGrease.dll
+D:\Client Projects\git\MockTest\MockTest\bin\EntityFramework.xml
+D:\Client Projects\git\MockTest\MockTest\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Client Projects\git\MockTest\MockTest\bin\Newtonsoft.Json.xml
+D:\Client Projects\git\MockTest\MockTest\bin\System.Net.Http.Formatting.xml
+D:\Client Projects\git\MockTest\MockTest\bin\System.Web.Http.xml
+D:\Client Projects\git\MockTest\MockTest\bin\System.Web.Http.Cors.xml
+D:\Client Projects\git\MockTest\MockTest\bin\System.Web.Helpers.xml
+D:\Client Projects\git\MockTest\MockTest\bin\System.Web.Http.WebHost.xml
+D:\Client Projects\git\MockTest\MockTest\bin\System.Web.Mvc.xml
+D:\Client Projects\git\MockTest\MockTest\bin\System.Web.Optimization.xml
+D:\Client Projects\git\MockTest\MockTest\bin\System.Web.Razor.xml
+D:\Client Projects\git\MockTest\MockTest\bin\System.Web.WebPages.xml
+D:\Client Projects\git\MockTest\MockTest\bin\System.Web.WebPages.Deployment.xml
+D:\Client Projects\git\MockTest\MockTest\bin\System.Web.WebPages.Razor.xml
+D:\Client Projects\git\MockTest\MockTest\bin\Antlr3.Runtime.pdb
+D:\Client Projects\git\MockTest\MockTest\bin\Microsoft.ApplicationInsights.xml
+D:\Client Projects\git\MockTest\MockTest\bin\Microsoft.AI.DependencyCollector.xml
+D:\Client Projects\git\MockTest\MockTest\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Client Projects\git\MockTest\MockTest\bin\Microsoft.AI.WindowsServer.xml
+D:\Client Projects\git\MockTest\MockTest\bin\Microsoft.AI.Web.xml
+D:\MockTestLive\MockTest\MockTest\obj\Debug\MockTest.csproj.CoreCompileInputs.cache
+D:\MockTestLive\MockTest\MockTest\obj\Debug\MockTest.dll
+D:\MockTestLive\MockTest\MockTest\obj\Debug\MockTest.pdb
+D:\MockTestLive\MockTest\MockTest\bin\ApplicationInsights.config
+D:\MockTestLive\MockTest\MockTest\bin\MockTest.dll.config
+D:\MockTestLive\MockTest\MockTest\bin\MockTest.dll
+D:\MockTestLive\MockTest\MockTest\bin\MockTest.pdb
+D:\MockTestLive\MockTest\MockTest\bin\roslyn\csc.exe
+D:\MockTestLive\MockTest\MockTest\bin\roslyn\csc.exe.config
+D:\MockTestLive\MockTest\MockTest\bin\roslyn\csc.rsp
+D:\MockTestLive\MockTest\MockTest\bin\roslyn\csi.exe
+D:\MockTestLive\MockTest\MockTest\bin\roslyn\csi.exe.config
+D:\MockTestLive\MockTest\MockTest\bin\roslyn\csi.rsp
+D:\MockTestLive\MockTest\MockTest\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\MockTestLive\MockTest\MockTest\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\MockTestLive\MockTest\MockTest\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\MockTestLive\MockTest\MockTest\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\MockTestLive\MockTest\MockTest\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\MockTestLive\MockTest\MockTest\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\MockTestLive\MockTest\MockTest\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\MockTestLive\MockTest\MockTest\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\MockTestLive\MockTest\MockTest\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\MockTestLive\MockTest\MockTest\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\MockTestLive\MockTest\MockTest\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\MockTestLive\MockTest\MockTest\bin\roslyn\System.AppContext.dll
+D:\MockTestLive\MockTest\MockTest\bin\roslyn\System.Collections.Immutable.dll
+D:\MockTestLive\MockTest\MockTest\bin\roslyn\System.Console.dll
+D:\MockTestLive\MockTest\MockTest\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\MockTestLive\MockTest\MockTest\bin\roslyn\System.Diagnostics.Process.dll
+D:\MockTestLive\MockTest\MockTest\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\MockTestLive\MockTest\MockTest\bin\roslyn\System.IO.Compression.dll
+D:\MockTestLive\MockTest\MockTest\bin\roslyn\System.IO.FileSystem.dll
+D:\MockTestLive\MockTest\MockTest\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+D:\MockTestLive\MockTest\MockTest\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\MockTestLive\MockTest\MockTest\bin\roslyn\System.IO.Pipes.dll
+D:\MockTestLive\MockTest\MockTest\bin\roslyn\System.Reflection.Metadata.dll
+D:\MockTestLive\MockTest\MockTest\bin\roslyn\System.Security.AccessControl.dll
+D:\MockTestLive\MockTest\MockTest\bin\roslyn\System.Security.Claims.dll
+D:\MockTestLive\MockTest\MockTest\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\MockTestLive\MockTest\MockTest\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\MockTestLive\MockTest\MockTest\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\MockTestLive\MockTest\MockTest\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\MockTestLive\MockTest\MockTest\bin\roslyn\System.Security.Principal.Windows.dll
+D:\MockTestLive\MockTest\MockTest\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\MockTestLive\MockTest\MockTest\bin\roslyn\System.Threading.Thread.dll
+D:\MockTestLive\MockTest\MockTest\bin\roslyn\System.ValueTuple.dll
+D:\MockTestLive\MockTest\MockTest\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\MockTestLive\MockTest\MockTest\bin\roslyn\System.Xml.XmlDocument.dll
+D:\MockTestLive\MockTest\MockTest\bin\roslyn\System.Xml.XPath.dll
+D:\MockTestLive\MockTest\MockTest\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\MockTestLive\MockTest\MockTest\bin\roslyn\vbc.exe
+D:\MockTestLive\MockTest\MockTest\bin\roslyn\vbc.exe.config
+D:\MockTestLive\MockTest\MockTest\bin\roslyn\vbc.rsp
+D:\MockTestLive\MockTest\MockTest\bin\roslyn\VBCSCompiler.exe
+D:\MockTestLive\MockTest\MockTest\bin\roslyn\VBCSCompiler.exe.config
+D:\MockTestLive\MockTest\MockTest\bin\Antlr3.Runtime.dll
+D:\MockTestLive\MockTest\MockTest\bin\EntityFramework.dll
+D:\MockTestLive\MockTest\MockTest\bin\Microsoft.AI.Agent.Intercept.dll
+D:\MockTestLive\MockTest\MockTest\bin\Microsoft.AI.DependencyCollector.dll
+D:\MockTestLive\MockTest\MockTest\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\MockTestLive\MockTest\MockTest\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\MockTestLive\MockTest\MockTest\bin\Microsoft.AI.Web.dll
+D:\MockTestLive\MockTest\MockTest\bin\Microsoft.AI.WindowsServer.dll
+D:\MockTestLive\MockTest\MockTest\bin\Microsoft.ApplicationInsights.dll
+D:\MockTestLive\MockTest\MockTest\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\MockTestLive\MockTest\MockTest\bin\Microsoft.Web.Infrastructure.dll
+D:\MockTestLive\MockTest\MockTest\bin\Newtonsoft.Json.dll
+D:\MockTestLive\MockTest\MockTest\bin\Swashbuckle.Core.dll
+D:\MockTestLive\MockTest\MockTest\bin\System.Net.Http.Formatting.dll
+D:\MockTestLive\MockTest\MockTest\bin\System.Web.Cors.dll
+D:\MockTestLive\MockTest\MockTest\bin\System.Web.Helpers.dll
+D:\MockTestLive\MockTest\MockTest\bin\System.Web.Http.Cors.dll
+D:\MockTestLive\MockTest\MockTest\bin\System.Web.Http.dll
+D:\MockTestLive\MockTest\MockTest\bin\System.Web.Http.WebHost.dll
+D:\MockTestLive\MockTest\MockTest\bin\System.Web.Mvc.dll
+D:\MockTestLive\MockTest\MockTest\bin\System.Web.Optimization.dll
+D:\MockTestLive\MockTest\MockTest\bin\System.Web.Razor.dll
+D:\MockTestLive\MockTest\MockTest\bin\System.Web.WebPages.Deployment.dll
+D:\MockTestLive\MockTest\MockTest\bin\System.Web.WebPages.dll
+D:\MockTestLive\MockTest\MockTest\bin\System.Web.WebPages.Razor.dll
+D:\MockTestLive\MockTest\MockTest\bin\WebActivatorEx.dll
+D:\MockTestLive\MockTest\MockTest\bin\WebGrease.dll
+D:\MockTestLive\MockTest\MockTest\bin\EntityFramework.xml
+D:\MockTestLive\MockTest\MockTest\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\MockTestLive\MockTest\MockTest\bin\Newtonsoft.Json.xml
+D:\MockTestLive\MockTest\MockTest\bin\System.Net.Http.Formatting.xml
+D:\MockTestLive\MockTest\MockTest\bin\System.Web.Http.xml
+D:\MockTestLive\MockTest\MockTest\bin\System.Web.Http.Cors.xml
+D:\MockTestLive\MockTest\MockTest\bin\System.Web.Helpers.xml
+D:\MockTestLive\MockTest\MockTest\bin\System.Web.Http.WebHost.xml
+D:\MockTestLive\MockTest\MockTest\bin\System.Web.Mvc.xml
+D:\MockTestLive\MockTest\MockTest\bin\System.Web.Optimization.xml
+D:\MockTestLive\MockTest\MockTest\bin\System.Web.Razor.xml
+D:\MockTestLive\MockTest\MockTest\bin\System.Web.WebPages.xml
+D:\MockTestLive\MockTest\MockTest\bin\System.Web.WebPages.Deployment.xml
+D:\MockTestLive\MockTest\MockTest\bin\System.Web.WebPages.Razor.xml
+D:\MockTestLive\MockTest\MockTest\bin\Antlr3.Runtime.pdb
+D:\MockTestLive\MockTest\MockTest\bin\Microsoft.ApplicationInsights.xml
+D:\MockTestLive\MockTest\MockTest\bin\Microsoft.AI.DependencyCollector.xml
+D:\MockTestLive\MockTest\MockTest\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\MockTestLive\MockTest\MockTest\bin\Microsoft.AI.WindowsServer.xml
+D:\MockTestLive\MockTest\MockTest\bin\Microsoft.AI.Web.xml
+D:\MockTestLive\MockTest\MockTest\obj\Debug\MockTest.csproj.CopyComplete
+D:\MockTestLive\MockTest\MockTest\obj\Debug\MockTest.csprojResolveAssemblyReference.cache
+D:\Others\Projects\Angularmock\MockTest\MockTest\bin\ApplicationInsights.config
+D:\Others\Projects\Angularmock\MockTest\MockTest\bin\MockTest.dll.config
+D:\Others\Projects\Angularmock\MockTest\MockTest\bin\MockTest.dll
+D:\Others\Projects\Angularmock\MockTest\MockTest\bin\MockTest.pdb
+D:\Others\Projects\Angularmock\MockTest\MockTest\bin\roslyn\csc.exe
+D:\Others\Projects\Angularmock\MockTest\MockTest\bin\roslyn\csc.exe.config
+D:\Others\Projects\Angularmock\MockTest\MockTest\bin\roslyn\csc.rsp
+D:\Others\Projects\Angularmock\MockTest\MockTest\bin\roslyn\csi.exe
+D:\Others\Projects\Angularmock\MockTest\MockTest\bin\roslyn\csi.exe.config
+D:\Others\Projects\Angularmock\MockTest\MockTest\bin\roslyn\csi.rsp
+D:\Others\Projects\Angularmock\MockTest\MockTest\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Others\Projects\Angularmock\MockTest\MockTest\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Others\Projects\Angularmock\MockTest\MockTest\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Others\Projects\Angularmock\MockTest\MockTest\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Others\Projects\Angularmock\MockTest\MockTest\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Others\Projects\Angularmock\MockTest\MockTest\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Others\Projects\Angularmock\MockTest\MockTest\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Others\Projects\Angularmock\MockTest\MockTest\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Others\Projects\Angularmock\MockTest\MockTest\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Others\Projects\Angularmock\MockTest\MockTest\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Others\Projects\Angularmock\MockTest\MockTest\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Others\Projects\Angularmock\MockTest\MockTest\bin\roslyn\System.AppContext.dll
+D:\Others\Projects\Angularmock\MockTest\MockTest\bin\roslyn\System.Console.dll
+D:\Others\Projects\Angularmock\MockTest\MockTest\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Others\Projects\Angularmock\MockTest\MockTest\bin\roslyn\System.Diagnostics.Process.dll
+D:\Others\Projects\Angularmock\MockTest\MockTest\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Others\Projects\Angularmock\MockTest\MockTest\bin\roslyn\System.IO.Compression.dll
+D:\Others\Projects\Angularmock\MockTest\MockTest\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+D:\Others\Projects\Angularmock\MockTest\MockTest\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Others\Projects\Angularmock\MockTest\MockTest\bin\roslyn\System.IO.Pipes.dll
+D:\Others\Projects\Angularmock\MockTest\MockTest\bin\roslyn\System.Reflection.Metadata.dll
+D:\Others\Projects\Angularmock\MockTest\MockTest\bin\roslyn\System.Security.AccessControl.dll
+D:\Others\Projects\Angularmock\MockTest\MockTest\bin\roslyn\System.Security.Claims.dll
+D:\Others\Projects\Angularmock\MockTest\MockTest\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Others\Projects\Angularmock\MockTest\MockTest\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Others\Projects\Angularmock\MockTest\MockTest\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Others\Projects\Angularmock\MockTest\MockTest\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Others\Projects\Angularmock\MockTest\MockTest\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Others\Projects\Angularmock\MockTest\MockTest\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Others\Projects\Angularmock\MockTest\MockTest\bin\roslyn\System.Threading.Thread.dll
+D:\Others\Projects\Angularmock\MockTest\MockTest\bin\roslyn\System.ValueTuple.dll
+D:\Others\Projects\Angularmock\MockTest\MockTest\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Others\Projects\Angularmock\MockTest\MockTest\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Others\Projects\Angularmock\MockTest\MockTest\bin\roslyn\System.Xml.XPath.dll
+D:\Others\Projects\Angularmock\MockTest\MockTest\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Others\Projects\Angularmock\MockTest\MockTest\bin\roslyn\vbc.exe
+D:\Others\Projects\Angularmock\MockTest\MockTest\bin\roslyn\vbc.exe.config
+D:\Others\Projects\Angularmock\MockTest\MockTest\bin\roslyn\vbc.rsp
+D:\Others\Projects\Angularmock\MockTest\MockTest\bin\roslyn\VBCSCompiler.exe
+D:\Others\Projects\Angularmock\MockTest\MockTest\bin\roslyn\VBCSCompiler.exe.config
+D:\Others\Projects\Angularmock\MockTest\MockTest\bin\Antlr3.Runtime.dll
+D:\Others\Projects\Angularmock\MockTest\MockTest\bin\EntityFramework.dll
+D:\Others\Projects\Angularmock\MockTest\MockTest\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Others\Projects\Angularmock\MockTest\MockTest\bin\Microsoft.AI.DependencyCollector.dll
+D:\Others\Projects\Angularmock\MockTest\MockTest\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Others\Projects\Angularmock\MockTest\MockTest\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Others\Projects\Angularmock\MockTest\MockTest\bin\Microsoft.AI.Web.dll
+D:\Others\Projects\Angularmock\MockTest\MockTest\bin\Microsoft.AI.WindowsServer.dll
+D:\Others\Projects\Angularmock\MockTest\MockTest\bin\Microsoft.ApplicationInsights.dll
+D:\Others\Projects\Angularmock\MockTest\MockTest\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Others\Projects\Angularmock\MockTest\MockTest\bin\Microsoft.Web.Infrastructure.dll
+D:\Others\Projects\Angularmock\MockTest\MockTest\bin\Newtonsoft.Json.dll
+D:\Others\Projects\Angularmock\MockTest\MockTest\bin\Swashbuckle.Core.dll
+D:\Others\Projects\Angularmock\MockTest\MockTest\bin\System.Net.Http.Formatting.dll
+D:\Others\Projects\Angularmock\MockTest\MockTest\bin\System.Web.Cors.dll
+D:\Others\Projects\Angularmock\MockTest\MockTest\bin\System.Web.Helpers.dll
+D:\Others\Projects\Angularmock\MockTest\MockTest\bin\System.Web.Http.Cors.dll
+D:\Others\Projects\Angularmock\MockTest\MockTest\bin\System.Web.Http.dll
+D:\Others\Projects\Angularmock\MockTest\MockTest\bin\System.Web.Http.WebHost.dll
+D:\Others\Projects\Angularmock\MockTest\MockTest\bin\System.Web.Mvc.dll
+D:\Others\Projects\Angularmock\MockTest\MockTest\bin\System.Web.Optimization.dll
+D:\Others\Projects\Angularmock\MockTest\MockTest\bin\System.Web.Razor.dll
+D:\Others\Projects\Angularmock\MockTest\MockTest\bin\System.Web.WebPages.Deployment.dll
+D:\Others\Projects\Angularmock\MockTest\MockTest\bin\System.Web.WebPages.dll
+D:\Others\Projects\Angularmock\MockTest\MockTest\bin\System.Web.WebPages.Razor.dll
+D:\Others\Projects\Angularmock\MockTest\MockTest\bin\WebActivatorEx.dll
+D:\Others\Projects\Angularmock\MockTest\MockTest\bin\WebGrease.dll
+D:\Others\Projects\Angularmock\MockTest\MockTest\bin\EntityFramework.xml
+D:\Others\Projects\Angularmock\MockTest\MockTest\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Others\Projects\Angularmock\MockTest\MockTest\bin\Newtonsoft.Json.xml
+D:\Others\Projects\Angularmock\MockTest\MockTest\bin\System.Net.Http.Formatting.xml
+D:\Others\Projects\Angularmock\MockTest\MockTest\bin\System.Web.Http.xml
+D:\Others\Projects\Angularmock\MockTest\MockTest\bin\System.Web.Http.Cors.xml
+D:\Others\Projects\Angularmock\MockTest\MockTest\bin\System.Web.Helpers.xml
+D:\Others\Projects\Angularmock\MockTest\MockTest\bin\System.Web.Http.WebHost.xml
+D:\Others\Projects\Angularmock\MockTest\MockTest\bin\System.Web.Mvc.xml
+D:\Others\Projects\Angularmock\MockTest\MockTest\bin\System.Web.Optimization.xml
+D:\Others\Projects\Angularmock\MockTest\MockTest\bin\System.Web.Razor.xml
+D:\Others\Projects\Angularmock\MockTest\MockTest\bin\System.Web.WebPages.xml
+D:\Others\Projects\Angularmock\MockTest\MockTest\bin\System.Web.WebPages.Deployment.xml
+D:\Others\Projects\Angularmock\MockTest\MockTest\bin\System.Web.WebPages.Razor.xml
+D:\Others\Projects\Angularmock\MockTest\MockTest\bin\Antlr3.Runtime.pdb
+D:\Others\Projects\Angularmock\MockTest\MockTest\bin\Microsoft.ApplicationInsights.xml
+D:\Others\Projects\Angularmock\MockTest\MockTest\bin\Microsoft.AI.DependencyCollector.xml
+D:\Others\Projects\Angularmock\MockTest\MockTest\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Others\Projects\Angularmock\MockTest\MockTest\bin\Microsoft.AI.WindowsServer.xml
+D:\Others\Projects\Angularmock\MockTest\MockTest\bin\Microsoft.AI.Web.xml
+D:\Others\Projects\Angularmock\MockTest\MockTest\obj\Debug\MockTest.csproj.CoreCompileInputs.cache
+D:\Others\Projects\Angularmock\MockTest\MockTest\obj\Debug\MockTest.csproj.CopyComplete
+D:\Others\Projects\Angularmock\MockTest\MockTest\obj\Debug\MockTest.dll
+D:\Others\Projects\Angularmock\MockTest\MockTest\obj\Debug\MockTest.pdb
+D:\Others\Projects\Angularmock\MockTest\MockTest\bin\roslyn\System.Collections.Immutable.dll
+D:\Others\Projects\Angularmock\MockTest\MockTest\bin\roslyn\System.IO.FileSystem.dll
+D:\Others\Projects\Angularmock\MockTest\MockTest\obj\Debug\MockTest.csprojResolveAssemblyReference.cache
+D:\angularcopy11may\Angularmock\MockTest\MockTest\bin\ApplicationInsights.config
+D:\angularcopy11may\Angularmock\MockTest\MockTest\bin\MockTest.dll.config
+D:\angularcopy11may\Angularmock\MockTest\MockTest\bin\MockTest.dll
+D:\angularcopy11may\Angularmock\MockTest\MockTest\bin\MockTest.pdb
+D:\angularcopy11may\Angularmock\MockTest\MockTest\bin\roslyn\csc.exe
+D:\angularcopy11may\Angularmock\MockTest\MockTest\bin\roslyn\csc.exe.config
+D:\angularcopy11may\Angularmock\MockTest\MockTest\bin\roslyn\csc.rsp
+D:\angularcopy11may\Angularmock\MockTest\MockTest\bin\roslyn\csi.exe
+D:\angularcopy11may\Angularmock\MockTest\MockTest\bin\roslyn\csi.exe.config
+D:\angularcopy11may\Angularmock\MockTest\MockTest\bin\roslyn\csi.rsp
+D:\angularcopy11may\Angularmock\MockTest\MockTest\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\angularcopy11may\Angularmock\MockTest\MockTest\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\angularcopy11may\Angularmock\MockTest\MockTest\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\angularcopy11may\Angularmock\MockTest\MockTest\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\angularcopy11may\Angularmock\MockTest\MockTest\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\angularcopy11may\Angularmock\MockTest\MockTest\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\angularcopy11may\Angularmock\MockTest\MockTest\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\angularcopy11may\Angularmock\MockTest\MockTest\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\angularcopy11may\Angularmock\MockTest\MockTest\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\angularcopy11may\Angularmock\MockTest\MockTest\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\angularcopy11may\Angularmock\MockTest\MockTest\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\angularcopy11may\Angularmock\MockTest\MockTest\bin\roslyn\System.AppContext.dll
+D:\angularcopy11may\Angularmock\MockTest\MockTest\bin\roslyn\System.Collections.Immutable.dll
+D:\angularcopy11may\Angularmock\MockTest\MockTest\bin\roslyn\System.Console.dll
+D:\angularcopy11may\Angularmock\MockTest\MockTest\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\angularcopy11may\Angularmock\MockTest\MockTest\bin\roslyn\System.Diagnostics.Process.dll
+D:\angularcopy11may\Angularmock\MockTest\MockTest\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\angularcopy11may\Angularmock\MockTest\MockTest\bin\roslyn\System.IO.Compression.dll
+D:\angularcopy11may\Angularmock\MockTest\MockTest\bin\roslyn\System.IO.FileSystem.dll
+D:\angularcopy11may\Angularmock\MockTest\MockTest\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+D:\angularcopy11may\Angularmock\MockTest\MockTest\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\angularcopy11may\Angularmock\MockTest\MockTest\bin\roslyn\System.IO.Pipes.dll
+D:\angularcopy11may\Angularmock\MockTest\MockTest\bin\roslyn\System.Reflection.Metadata.dll
+D:\angularcopy11may\Angularmock\MockTest\MockTest\bin\roslyn\System.Security.AccessControl.dll
+D:\angularcopy11may\Angularmock\MockTest\MockTest\bin\roslyn\System.Security.Claims.dll
+D:\angularcopy11may\Angularmock\MockTest\MockTest\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\angularcopy11may\Angularmock\MockTest\MockTest\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\angularcopy11may\Angularmock\MockTest\MockTest\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\angularcopy11may\Angularmock\MockTest\MockTest\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\angularcopy11may\Angularmock\MockTest\MockTest\bin\roslyn\System.Security.Principal.Windows.dll
+D:\angularcopy11may\Angularmock\MockTest\MockTest\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\angularcopy11may\Angularmock\MockTest\MockTest\bin\roslyn\System.Threading.Thread.dll
+D:\angularcopy11may\Angularmock\MockTest\MockTest\bin\roslyn\System.ValueTuple.dll
+D:\angularcopy11may\Angularmock\MockTest\MockTest\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\angularcopy11may\Angularmock\MockTest\MockTest\bin\roslyn\System.Xml.XmlDocument.dll
+D:\angularcopy11may\Angularmock\MockTest\MockTest\bin\roslyn\System.Xml.XPath.dll
+D:\angularcopy11may\Angularmock\MockTest\MockTest\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\angularcopy11may\Angularmock\MockTest\MockTest\bin\roslyn\vbc.exe
+D:\angularcopy11may\Angularmock\MockTest\MockTest\bin\roslyn\vbc.exe.config
+D:\angularcopy11may\Angularmock\MockTest\MockTest\bin\roslyn\vbc.rsp
+D:\angularcopy11may\Angularmock\MockTest\MockTest\bin\roslyn\VBCSCompiler.exe
+D:\angularcopy11may\Angularmock\MockTest\MockTest\bin\roslyn\VBCSCompiler.exe.config
+D:\angularcopy11may\Angularmock\MockTest\MockTest\bin\Antlr3.Runtime.dll
+D:\angularcopy11may\Angularmock\MockTest\MockTest\bin\EntityFramework.dll
+D:\angularcopy11may\Angularmock\MockTest\MockTest\bin\Microsoft.AI.Agent.Intercept.dll
+D:\angularcopy11may\Angularmock\MockTest\MockTest\bin\Microsoft.AI.DependencyCollector.dll
+D:\angularcopy11may\Angularmock\MockTest\MockTest\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\angularcopy11may\Angularmock\MockTest\MockTest\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\angularcopy11may\Angularmock\MockTest\MockTest\bin\Microsoft.AI.Web.dll
+D:\angularcopy11may\Angularmock\MockTest\MockTest\bin\Microsoft.AI.WindowsServer.dll
+D:\angularcopy11may\Angularmock\MockTest\MockTest\bin\Microsoft.ApplicationInsights.dll
+D:\angularcopy11may\Angularmock\MockTest\MockTest\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\angularcopy11may\Angularmock\MockTest\MockTest\bin\Microsoft.Web.Infrastructure.dll
+D:\angularcopy11may\Angularmock\MockTest\MockTest\bin\Newtonsoft.Json.dll
+D:\angularcopy11may\Angularmock\MockTest\MockTest\bin\Swashbuckle.Core.dll
+D:\angularcopy11may\Angularmock\MockTest\MockTest\bin\System.Net.Http.Formatting.dll
+D:\angularcopy11may\Angularmock\MockTest\MockTest\bin\System.Web.Cors.dll
+D:\angularcopy11may\Angularmock\MockTest\MockTest\bin\System.Web.Helpers.dll
+D:\angularcopy11may\Angularmock\MockTest\MockTest\bin\System.Web.Http.Cors.dll
+D:\angularcopy11may\Angularmock\MockTest\MockTest\bin\System.Web.Http.dll
+D:\angularcopy11may\Angularmock\MockTest\MockTest\bin\System.Web.Http.WebHost.dll
+D:\angularcopy11may\Angularmock\MockTest\MockTest\bin\System.Web.Mvc.dll
+D:\angularcopy11may\Angularmock\MockTest\MockTest\bin\System.Web.Optimization.dll
+D:\angularcopy11may\Angularmock\MockTest\MockTest\bin\System.Web.Razor.dll
+D:\angularcopy11may\Angularmock\MockTest\MockTest\bin\System.Web.WebPages.Deployment.dll
+D:\angularcopy11may\Angularmock\MockTest\MockTest\bin\System.Web.WebPages.dll
+D:\angularcopy11may\Angularmock\MockTest\MockTest\bin\System.Web.WebPages.Razor.dll
+D:\angularcopy11may\Angularmock\MockTest\MockTest\bin\WebActivatorEx.dll
+D:\angularcopy11may\Angularmock\MockTest\MockTest\bin\WebGrease.dll
+D:\angularcopy11may\Angularmock\MockTest\MockTest\bin\EntityFramework.xml
+D:\angularcopy11may\Angularmock\MockTest\MockTest\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\angularcopy11may\Angularmock\MockTest\MockTest\bin\Newtonsoft.Json.xml
+D:\angularcopy11may\Angularmock\MockTest\MockTest\bin\System.Net.Http.Formatting.xml
+D:\angularcopy11may\Angularmock\MockTest\MockTest\bin\System.Web.Http.xml
+D:\angularcopy11may\Angularmock\MockTest\MockTest\bin\System.Web.Http.Cors.xml
+D:\angularcopy11may\Angularmock\MockTest\MockTest\bin\System.Web.Helpers.xml
+D:\angularcopy11may\Angularmock\MockTest\MockTest\bin\System.Web.Http.WebHost.xml
+D:\angularcopy11may\Angularmock\MockTest\MockTest\bin\System.Web.Mvc.xml
+D:\angularcopy11may\Angularmock\MockTest\MockTest\bin\System.Web.Optimization.xml
+D:\angularcopy11may\Angularmock\MockTest\MockTest\bin\System.Web.Razor.xml
+D:\angularcopy11may\Angularmock\MockTest\MockTest\bin\System.Web.WebPages.xml
+D:\angularcopy11may\Angularmock\MockTest\MockTest\bin\System.Web.WebPages.Deployment.xml
+D:\angularcopy11may\Angularmock\MockTest\MockTest\bin\System.Web.WebPages.Razor.xml
+D:\angularcopy11may\Angularmock\MockTest\MockTest\bin\Antlr3.Runtime.pdb
+D:\angularcopy11may\Angularmock\MockTest\MockTest\bin\Microsoft.ApplicationInsights.xml
+D:\angularcopy11may\Angularmock\MockTest\MockTest\bin\Microsoft.AI.DependencyCollector.xml
+D:\angularcopy11may\Angularmock\MockTest\MockTest\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\angularcopy11may\Angularmock\MockTest\MockTest\bin\Microsoft.AI.WindowsServer.xml
+D:\angularcopy11may\Angularmock\MockTest\MockTest\bin\Microsoft.AI.Web.xml
+D:\angularcopy11may\Angularmock\MockTest\MockTest\obj\Debug\MockTest.csprojResolveAssemblyReference.cache
+D:\angularcopy11may\Angularmock\MockTest\MockTest\obj\Debug\MockTest.csproj.CoreCompileInputs.cache
+D:\angularcopy11may\Angularmock\MockTest\MockTest\obj\Debug\MockTest.csproj.CopyComplete
+D:\angularcopy11may\Angularmock\MockTest\MockTest\obj\Debug\MockTest.dll
+D:\angularcopy11may\Angularmock\MockTest\MockTest\obj\Debug\MockTest.pdb

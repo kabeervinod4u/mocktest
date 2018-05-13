@@ -1,0 +1,36 @@
+<div class="form-group">
+    <div class="">
+      <label for="exampleInputName"><b>Email:</b></label>
+      <input class="form-control" name="firstName" type="text" [(ngModel)]="testData.EmailId">
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="">
+      <label for="Select_Subject"><b>SelectSubject:</b></label>
+      <select class="form-control" [(ngModel)]="testData.SubjectId" (change)="changeCategoryList(testData.SubjectId)">
+        <option *ngFor="let subjectlist of subjectList" [ngValue]="subjectlist.Id">{{subjectlist.Subject}} </option>
+      </select>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="">
+      <label for="Select_Subject"><b>Select category:</b></label>
+      <select class="form-control" [(ngModel)]="testData.CategoryId">
+        <option *ngFor="let categorylist of categoryList" [ngValue]="categorylist.Id">{{categorylist.Category}}</option>
+      </select>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="">
+      <label for="Select_Subject"><b>Skill Set:</b></label>
+      <input class="form-control" name="firstName" type="text">
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="">
+      <label for="Select_Subject"><b>TestDuration:</b></label>
+      <input class="form-control" type="number" name="quantity" [(ngModel)]="testData.TestDuration">
+    </div>
+  </div>
+
+  <button class="btn btn-primary btn-block" (click)="submitDetail()">submit</button>

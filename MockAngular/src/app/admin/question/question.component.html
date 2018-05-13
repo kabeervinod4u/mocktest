@@ -1,0 +1,46 @@
+<dash-board></dash-board>
+<div class="content-wrapper">
+  <div class="container-fluid">
+    <button mat-raised-button (click)="openDialog()" class="btn btn-outline-primary">Add Question</button>
+    <br /><br />
+          <div class="card mb-3">
+            <div class="card-header">
+              <i class="fa fa-table"></i> Question List
+            </div>
+            <div class="table-header">
+              <mat-form-field>
+                <input matInput (keyup)="applyFilter($event.target.value)" placeholder="Filter">
+              </mat-form-field>
+            </div>
+            <div class="card-body">
+              <div class="table-responsive">
+                <mat-table #table [dataSource]="dataSource" matSort class="table table-bordered">
+                  <ng-container matColumnDef="Subject">
+                    <mat-header-cell *matHeaderCellDef mat-sort-header> Subject </mat-header-cell>
+                    <mat-cell *matCellDef="let row"> {{row.Subject}}</mat-cell>
+                  </ng-container>
+                  <ng-container matColumnDef="Category">
+                    <mat-header-cell *matHeaderCellDef mat-sort-header> Category </mat-header-cell>
+                    <mat-cell *matCellDef="let row"> {{row.Category}} </mat-cell>
+                  </ng-container>
+                  <ng-container matColumnDef="Question">
+                    <mat-header-cell *matHeaderCellDef mat-sort-header> Question </mat-header-cell>
+                    <mat-cell *matCellDef="let row"> {{row.Question}} </mat-cell>
+                  </ng-container>
+                  <ng-container matColumnDef="Action">
+                    <mat-header-cell *matHeaderCellDef mat-sort-header> Action </mat-header-cell>
+                    <mat-cell *matCellDef="let row">
+                      <a class="btn" (click)="showForEdit(row)">
+                        <i class="fa fa-pencil-square-o"></i>
+                      </a>
+                    </mat-cell>
+                  </ng-container>
+                  <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+                  <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
+                </mat-table>
+              </div>
+            </div>
+            <div class="card-footer"> <mat-paginator [pageSizeOptions]="[10, 25,50, 100]"></mat-paginator></div>
+          </div>
+  </div>
+</div>

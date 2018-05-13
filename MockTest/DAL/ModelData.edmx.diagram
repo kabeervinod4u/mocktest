@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="23ac56d03fb54598900af88bf905c709" Name="Diagram1">
+        <EntityTypeShape EntityType="MockTestDBModel.tbl_answers" Width="1.5" PointX="12.5" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="MockTestDBModel.tbl_examtest_info" Width="1.5" PointX="5.25" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MockTestDBModel.tbl_examtest_info_detail" Width="1.5" PointX="8.75" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MockTestDBModel.tbl_examtest_info_detail_answers" Width="1.5" PointX="0.75" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MockTestDBModel.tbl_grade_master" Width="1.5" PointX="10.75" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MockTestDBModel.tbl_login" Width="1.5" PointX="3" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MockTestDBModel.tbl_questions" Width="1.5" PointX="10.25" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="MockTestDBModel.tbl_registration" Width="1.5" PointX="0.75" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MockTestDBModel.tbl_role" Width="1.5" PointX="6" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MockTestDBModel.tbl_subjectCategory" Width="1.5" PointX="8" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="MockTestDBModel.tbl_subjectMaster" Width="1.5" PointX="5.75" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MockTestDBModel.tbl_user_in_roles" Width="1.5" PointX="8.25" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MockTestDBModel.tbl_verification_info" Width="1.5" PointX="3" PointY="8.125" IsExpanded="true" />
+        <AssociationConnector Association="MockTestDBModel.FK_tbl_answers_tbl_questions" ManuallyRouted="false" />
+        <AssociationConnector Association="MockTestDBModel.FK__tbl_examt__UserI__67DE6983" ManuallyRouted="false" />
+        <AssociationConnector Association="MockTestDBModel.FK__tbl_user___UserI__66EA454A" ManuallyRouted="false" />
+        <AssociationConnector Association="MockTestDBModel.FK_tbl_logintbl_registration" ManuallyRouted="false" />
+        <AssociationConnector Association="MockTestDBModel.FK_tbl_questions_tbl_subjectCategory" ManuallyRouted="false" />
+        <AssociationConnector Association="MockTestDBModel.FK_tbl_verification_info_tbl_registration" ManuallyRouted="false" />
+        <AssociationConnector Association="MockTestDBModel.FK_Table_1_tbl_role" ManuallyRouted="false" />
+        <AssociationConnector Association="MockTestDBModel.FK_tbl_subjectCategory_tbl_subjectMaster" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="MockTestDBModel.tbl_exception" Width="1.5" PointX="10.375" PointY="4.75" />
+        <EntityTypeShape EntityType="MockTestDBModel.tbl_ExamDetail" Width="1.5" PointX="0.75" PointY="11.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

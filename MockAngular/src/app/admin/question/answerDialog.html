@@ -1,0 +1,77 @@
+<div class="form-row" *ngIf="answerOption?.length == 0">
+  <!--<form [formGroup]="answerForm" class="w-100" (ngSubmit)="onSubmit(answerForm.value)">
+    <div formArrayName="itemRows">
+      <div class="form-group">
+        <button type="button" (click)="addNewRow()" class="btn btn-primary"><i class="fa fa-plus"></i></button>
+      </div>
+      <div *ngFor="let itemrow of answerForm.controls.itemRows.controls; let i=index" [formGroupName]="i">
+        <div class="form-group">
+          <div class="input-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="">#{{ i + 1 }})</span>
+              <span class="input-group-text" id=""><input type="checkbox" formControlName="itemcheck" /></span>
+            </div>
+            <div class="custom-file">
+              <textarea rows="1" formControlName="itemname" class="form-control"></textarea>
+              <input type="hidden" formControlName="questionId" />
+            </div>
+            <div class="input-group-append">
+              <button *ngIf="answerForm.controls.itemRows.controls.length > 1" (click)="deleteRow(i)" class="btn btn-danger"><i class="fa fa-trash"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="col-md-6">
+        <button type="submit" class="btn btn-primary btn-block">Submit</button>
+      </div>
+      <div class="col-md-6">
+        <a class="btn btn-danger btn-block" (click)="onNoClick()" href="javascript:void(0)">Cancel</a>
+      </div>
+    </div>
+  </form>-->
+  <div class="w-100">
+    <h5 class="float-left">Don't have any answer for this question</h5>
+    <div class="float-right">
+      <button class="btn btn-link" (click)="onNoClick()" href="javascript:void(0)"><i class="fa fa-times"></i></button>
+    </div>
+
+  </div>
+</div>
+<div class="form-row" *ngIf="answerOption?.length > 0">
+  <div class="w-100">
+    <ul class=" nav">
+      <li *ngFor="let ans of answerOption; let i=index" class="d-block w-100">
+        <div class="form-group">
+          <div class="input-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="">#{{ i + 1 }})</span>
+              <span class="input-group-text" id=""><input type="checkbox" [(ngModel)]="ans.itemcheck" /></span>
+            </div>
+            <div class="custom-file">
+              <textarea rows="1" class="form-control" [(ngModel)]="ans.itemname"></textarea>
+            </div>
+            <div class="input-group-append">
+              <div class="btn btn-danger">
+                <input type="checkbox" [(ngModel)]="ans.Isremove" style=""/> <i class="fa fa-trash"></i>
+              </div>
+              <!--<button (click)="deleteRow()" class="btn btn-danger"><i class="fa fa-trash"></i></button>-->
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div class="w-100 ">
+    <div class="row">
+      <div class="col-md-6">
+        <a class="btn btn-primary btn-block" (click)="onUpdate()" href="javascript:void(0)">Submit</a>
+      </div>
+      <div class="col-md-6">
+        <a class="btn btn-danger btn-block" (click)="onNoClick()" href="javascript:void(0)">Cancel</a>
+      </div>
+    </div>
+  </div>
+</div>
+

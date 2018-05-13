@@ -1,0 +1,119 @@
+  <!-- Admin Dashboard -->
+<div *ngIf="roleId==1" (window:resize)="onResize($event)">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+    <a class="navbar-brand" href="index.html">Welcome, {{name}}</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav navbar-sidenav" id="exampleAccordion">
+        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Dashboard">
+          <a class="nav-link" routerLink="/admindashboard">
+            <i class="fa fa-fw fa-dashboard"></i>
+            <span class="nav-link-text">Dashboard</span>
+          </a>
+        </li>
+        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Charts">
+          <a class="nav-link" routerLink="/subject">
+            <i class="fa fa-fw fa-area-chart"></i>
+            <span class="nav-link-text">Subject</span>
+          </a>
+        </li>
+        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Charts">
+          <a class="nav-link" routerLink="/category">
+            <i class="fa fa-fw fa-area-chart"></i>
+            <span class="nav-link-text">Category</span>
+          </a>
+        </li>
+        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Tables">
+          <a class="nav-link" routerLink="/createtest">
+            <i class="fa fa-fw fa-table"></i>
+            <span class="nav-link-text">Create Test</span>
+          </a>
+        </li>
+        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Charts">
+          <a class="nav-link" routerLink="/question">
+            <i class="fa fa-fw fa-area-chart"></i>
+            <span class="nav-link-text">Question</span>
+          </a>
+        </li>
+      </ul>
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="modal" (click)="onLogout()" href="javascript:void(0)" data-target="#exampleModal">
+            <i class="fa fa-fw fa-sign-out"></i>Logout
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</div>
+<!-- User Dashboard -->
+<div *ngIf="roleId==2">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+    <a class="navbar-brand" href="index.html">Welcome, {{name}}</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav navbar-sidenav" id="exampleAccordion">
+        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Dashboard">
+          <a class="nav-link" routerLink="/userdashboard">
+            <i class="fa fa-fw fa-dashboard"></i>
+            <span class="nav-link-text">Dashboard</span>
+          </a>
+        </li>
+        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Charts">
+          <a class="nav-link" routerLink="/exam">
+            <i class="fa fa-fw fa-area-chart"></i>
+            <span class="nav-link-text">New Test</span>
+          </a>
+        </li>
+        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Tables">
+          <a class="nav-link" href="#">
+            <i class="fa fa-fw fa-table"></i>
+            <span class="nav-link-text">Show Result</span>
+          </a>
+        </li>
+        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Tables">
+          <a class="nav-link" href="#">
+            <i class="fa fa-fw fa-pie-chart"></i>
+            <span class="nav-link-text">Graph Result</span>
+          </a>
+        </li>
+      </ul>
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="modal" (click)="onLogout()" href="javascript:void(0)" data-target="#exampleModal">
+            <i class="fa fa-fw fa-sign-out"></i>Logout
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</div>
+<router-outlet></router-outlet>
+<footer class="sticky-footer">
+  <div class="container">
+    <div class="text-center">
+      <small>Copyright © Your Website 2018</small>
+    </div>
+  </div>
+</footer>
+<div class="modal fade" id="modal-warning">
+  <div class="modal-dialog  modal-md">
+    <div class="modal-content">
+      <div class="modal-body text-center">
+        <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+        <div>
+          <h3>Are you sure?</h3>
+          <h1 class="page-header"><label></label></h1>
+          <h4></h4>
+          <!--<a href="javascript:void(0);" class="btn btn-sm btn-primary" data-dismiss="modal">Cancel</a>-->
+          <a href="javascript:void(0);" class="btn btn-sm btn-danger" (click)="onWaring()">Ok</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
